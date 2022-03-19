@@ -11,6 +11,7 @@ The logo, from the art work I got the impression that the bobbles should be movi
 So I cleaned up logo and made the bobbles move.
 
 Thanks to Arnaud Guyon for making this public.
+https://github.com/smart-fun/Amiga
 As for the rest of credit look in the scroll text.
 
 For the code I decided to use MIT, as most of code snippets are under MIT license from before, in other project. 
