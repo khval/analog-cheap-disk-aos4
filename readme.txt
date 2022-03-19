@@ -22,6 +22,9 @@ Other ideas, stuff to do:
 Fullscreen, Iconify, Tooltypes, Outro
 there is no outro on the original, but I think make a lot more interesting.
 
+If you like to contribute look here:
+https://github.com/khval/analog-cheap-disk-aos4
+
 Best Regards
 Kjetil Hvalstrand
 LiveForIt
