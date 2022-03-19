@@ -1,0 +1,30 @@
+.key target_lha
+.bra {
+.ket }
+
+setenv lhafile=ram:analog-cheap-disk-os4.lha
+
+if exists ram:analog-cheap-disk-os4
+	delete ram:analog-cheap-disk-os4 all
+endif
+
+if exists ram:analog-cheap-disk-os4.lha
+	delete ram:analog-cheap-disk-os4.lha
+endif
+
+makedir ram:analog-cheap-disk-os4
+makedir ram:analog-cheap-disk-os4/libs
+makedir ram:analog-cheap-disk-os4/media
+
+copy libs:ptreplay.library ram:analog-cheap-disk-os4/libs
+copy libs:ptplay.library ram:analog-cheap-disk-os4/libs
+
+copy media ram:analog-cheap-disk-os4/media all
+copy readme.txt ram:analog-cheap-disk-os4
+copy LICENSE ram:analog-cheap-disk-os4
+copy analog-cheap-disk.elf ram:analog-cheap-disk-os4
+
+lha -er a $lhafile ram:analog-cheap-disk-os4 >NIL:
+
+; lha L $lhafile
+;delete ram:analog-cheap-disk-os4 all 
